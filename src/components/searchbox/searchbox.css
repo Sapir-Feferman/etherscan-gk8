@@ -1,0 +1,56 @@
+.searchbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchbox .userInput {
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #fff;
+    border-right: 0;
+    background-color: #002B54;
+    color: #fff;
+    font-family: "Titillium Web", Sans-serif;
+}
+
+.searchbox .userInput:focus-visible {
+    outline-width: 0
+}
+
+.searchbox .userInput::placeholder {
+    color: #fff;
+}
+
+.searchbox button {
+    height: 40px;
+    width: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 0;
+    background-color: #002B54;
+    color: #fff;
+}
+
+.searchbox button:hover {
+    color: #00E6E6;
+}
+
+.searchbox button span {
+    color: inherit;
+    cursor: pointer;
+}
+
+.searchContainer .errorMsg {
+    font-size: 12px;
+    color: red;
+    text-transform: uppercase;
+    margin-top: 5px;
+}

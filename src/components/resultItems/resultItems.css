@@ -1,0 +1,44 @@
+.searchResults:empty {
+    background-color: transparent;
+    height: auto;
+}
+
+.searchResults {
+    margin: 20px 10px 10px 10px;
+    background-color: #295783;
+    padding: 10px;
+    border-radius: 15px;
+    height: 300px;
+    overflow: auto;
+}
+
+.searchResults::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.searchResults::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #002B54;
+    border-radius: 10px;
+}
+
+.searchResults::-webkit-scrollbar-thumb {
+    background: #00E6E6;
+    border-radius: 10px;
+}
+.searchResults::-webkit-scrollbar-corner  {
+    background-color: transparent;
+}
+
+.searchResults table th {
+    font-size: 14px;
+}
+
+.searchResults table td {
+    font-size: 12px;  
+    padding: 0 4px;
+}
+
+.noResults {
+    height: auto;
+}
